@@ -12,14 +12,6 @@ concurrency:
 jobs:
   workflows:
     name: Publish add-on update
-    runs-on: ubuntu-latest
-    steps:
-      - name: 🚀 Run Repository Updater
-        uses: hassio-addons/repository-updater@v1.2.5
-        with:
-          addon: ${{ github.event.client_payload.addon }}
-          repository: ${{ github.repository }}
-          token: ${{ secrets.UPDATER_TOKEN }}
-        env:
-          GITHUB_EMAIL: ${{ vars.GIT_EMAIL }}
-          GITHUB_NAME: ${{ vars.GIT_NAME }}
+    uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@main
+    secrets:
+      UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
