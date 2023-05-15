@@ -20,3 +20,6 @@ jobs:
           addon: ${{ github.event.client_payload.addon }}
           repository: ${{ github.repository }}
           token: ${{ secrets.UPDATER_TOKEN }}
+        env:
+          GITHUB_EMAIL: ${{ vars.GIT_EMAIL }}
+          GITHUB_NAME: ${{ vars.GIT_NAME }}
