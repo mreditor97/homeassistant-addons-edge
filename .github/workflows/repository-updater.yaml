@@ -6,12 +6,18 @@ on:
   repository_dispatch:
     types: ['update']
 
+concurrency:
+  group: queue
+
 jobs:
   workflows:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: fregante/setup-git-user@v1
-      - uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@main
+      - name: Setup @actions git user
+        uses: fregante/setup-git-user@v1
+      - name: 🚀 Run Repository Updater
+        uses: hassio-addons/repository-updater@v1.2.5
         with:
-          UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
+          addon: ${{ github.event.client_payload.addon }}
+          repository: ${{ github.repository }}
+          token: ${{ secrets.UPDATER_TOKEN }}
