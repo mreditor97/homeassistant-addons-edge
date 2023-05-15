@@ -11,6 +11,7 @@ concurrency:
 
 jobs:
   workflows:
+    name: Publish add-on update
     runs-on: ubuntu-latest
     steps:
       - name: Setup @actions git user
