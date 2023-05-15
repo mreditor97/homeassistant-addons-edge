@@ -1,4 +1,4 @@
-# MrEditor97's Home Assistant Add-on's Repository
+# MrEditor97's Home Assistant Add-on's Repository - Edge
 
 Add-ons for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be installed and configured from within the Home Assistant frontend.
 
