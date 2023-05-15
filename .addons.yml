@@ -1,19 +1,7 @@
 ---
 channel: edge
 addons:
-  example:
-    repository: hassio-addons/addon-example
-    target: example
-    image: hassioaddons/example-{arch}
-  another:
-    repository: hassio-addons/addon-another
-    target: homebridge
-    image: ghcr.io/hassio-addons/test-{arch}
-  demo:
-    repository: hassio-addons/addon-demo
-    target: src
-    image: ghcr.io/hassio-addons/demo/{arch}
   redreactor:
-    repository: mreditor97/addons-redreactor
+    repository: mreditor97/addon-redreactor
     target: redreactor
-    image: ghcr.io/mreditor97/addons-redreactor/{arch}
+    image: ghcr.io/mreditor97/addon-redreactor/{arch}
