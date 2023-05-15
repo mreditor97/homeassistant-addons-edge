@@ -14,6 +14,8 @@ jobs:
     name: Publish add-on update
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout files
+        uses: actions/checkout@v2
       - name: Setup @actions git user
         uses: fregante/setup-git-user@v1
       - name: 🚀 Run Repository Updater
