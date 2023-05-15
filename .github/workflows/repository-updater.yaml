@@ -8,7 +8,10 @@ on:
 
 jobs:
   workflows:
-    name: Repository Updater
-    uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@main
-    secrets:
-      UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: fregante/setup-git-user@v1
+      - uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@main
+        with:
+          UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
