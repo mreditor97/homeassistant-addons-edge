@@ -1,0 +1,7 @@
+---
+channel: edge
+addons:
+  redreactor:
+    repository: mreditor97/addon-redreactor
+    target: redreactor
+    image: ghcr.io/mreditor97/addon-redreactor/{arch}
