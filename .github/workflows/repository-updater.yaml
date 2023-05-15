@@ -8,7 +8,7 @@ on:
 
 jobs:
   workflows:
-    name: Workflow
+    name: Repository Updater
     uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@main
     secrets:
-      UPDATER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
