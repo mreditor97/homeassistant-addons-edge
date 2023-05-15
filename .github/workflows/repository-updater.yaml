@@ -8,7 +8,7 @@ on:
 
 jobs:
   workflows:
-    name: Publish add-on update
+    name: Workflow
     uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@main
     secrets:
-      UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
+      UPDATER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
