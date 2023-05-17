@@ -1,0 +1,1 @@
+- Added Hadolint ignore for redreactor version
