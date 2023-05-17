@@ -1,1 +1,1 @@
-- Removed addon slug
+- Updated readme indentations
