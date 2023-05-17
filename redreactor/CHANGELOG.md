@@ -1,0 +1,1 @@
+- Removed addon slug
