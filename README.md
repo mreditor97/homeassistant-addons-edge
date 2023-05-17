@@ -37,4 +37,13 @@ on the correct GitHub repository matching the add-on.
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
+[addon-redreactor]: https://github.com/mreditor97/addon-redreactor/tree/4f7e824
+[redreactor-issue]: https://github.com/mreditor97/addon-redreactor/issues
+[redreactor-version-shield]: https://img.shields.io/badge/version-4f7e824-blue.svg
+[redreactor-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[redreactor-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
+[redreactor-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[redreactor-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[redreactor-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[issue]: https://github.com/mreditor97/homeassistant-addons-edge/issues
 [semver]: http://semver.org/spec/v2.0.0.html
