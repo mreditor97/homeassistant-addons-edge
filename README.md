@@ -3,7 +3,7 @@
 Add-ons for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be installed and configured from within the Home Assistant frontend.
 
 ## Available Add-ons
-### &#10003; [Red Reactor Battery Monitor][redreactor]
+### &#10003; [Red Reactor Battery Monitor][addon-redreactor]
 
 ![Latest Version][redreactor-version-shield]
 ![Supports armhf Architecture][redreactor-armhf-shield]
@@ -36,3 +36,5 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Red Reactor Battery Monitor][redreactor-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
+
+[semver]: http://semver.org/spec/v2.0.0.html
