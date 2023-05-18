@@ -2,8 +2,9 @@
 
 Automatically control your Red Reactor Battery Monitor from within Home Assistant via MQTT.
 
-![Supports aarch64 Architecture][aarch64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7
-Architecture][armv7-shield]
+[![Release][release-shield]][release] ![Supports aarch64 Architecture][aarch64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7
+Architecture][armv7-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports i386 Architecture]
+[i386-shield]
 
 ## About
 
@@ -31,7 +32,12 @@ If you are more interested in stable releases of our add-ons:
 
 <https://github.com/mreditor97/homeassistant-addons>
 
+
+[release-shield]: https://img.shields.io/badge/version-42b5542-blue.svg
+[release]: https://github.com/mreditor97/addon-redreactor/tree/42b5542
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[amd64-shield]: https://img.shields.io/badge/amd64-no-green.svg
+[i386-shield]: https://img.shields.io/badge/i386-no-green.svg
 [redreactor]: https://www.theredreactor.com/

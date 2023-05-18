@@ -1,6 +1,6 @@
 name: Red Reactor Battery Monitor
 description: Red Reactor Battery Monitoring service
-version: 4f7e824
+version: 42b5542
 slug: redreactor
 url: https://github.com/mreditor97/addon-redreactor
 startup: services
@@ -53,4 +53,4 @@ schema:
   logging:
     console: list(DEBUG|INFO|WARNING|ERROR|CRITICAL)
     file: list(DEBUG|INFO|WARNING|ERROR|CRITICAL)
-image: ghcr.io/mreditor97/addon-redreactor/{arch}
+image: ghcr.io/mreditor97/redreactor/{arch}

@@ -1,1 +1,1 @@
-- Updated readme indentations
+- Added release version into readme
