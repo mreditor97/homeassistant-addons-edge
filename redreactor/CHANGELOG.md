@@ -1,1 +1,1 @@
-- Updated release-drafter tag template
+- Update shield link in readme
