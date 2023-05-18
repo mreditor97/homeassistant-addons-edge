@@ -1,1 +1,1 @@
-- Added renovate versioning
+- Updated Red Reactor to v0.1.2-alpha
