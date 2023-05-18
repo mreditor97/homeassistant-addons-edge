@@ -1,1 +1,1 @@
-- Updated Red Reactor to v0.1.0-beta
+- Remove v addition in Red Reactor version argument
