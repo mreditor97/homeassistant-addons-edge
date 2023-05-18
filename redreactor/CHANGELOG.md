@@ -1,1 +1,1 @@
-- Added release version into readme
+- Added renovate versioning
