@@ -1,1 +1,1 @@
-- Update Red Reactor to v0.1.3-alpha
+- Try Dockerfile without v tag in git
