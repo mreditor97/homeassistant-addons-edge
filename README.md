@@ -27,9 +27,7 @@ based on the following:
 
 ## Support
 
-Got questions?
-
-You could also open an issue here on GitHub. Note, we use a separate
+You can open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
@@ -37,13 +35,21 @@ on the correct GitHub repository matching the add-on.
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
+
 [addon-redreactor]: https://github.com/mreditor97/addon-redreactor/tree/721c470
 [redreactor-issue]: https://github.com/mreditor97/addon-redreactor/issues
 [redreactor-version-shield]: https://img.shields.io/badge/version-721c470-blue.svg
+
 [redreactor-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+
 [redreactor-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
+
 [redreactor-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+
 [redreactor-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+
 [redreactor-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+
+
 [issue]: https://github.com/mreditor97/homeassistant-addons-edge/issues
 [semver]: http://semver.org/spec/v2.0.0.html
