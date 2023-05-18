@@ -1,1 +1,1 @@
-- Remove v addition in Red Reactor version argument
+- Updated release-drafter tag template
