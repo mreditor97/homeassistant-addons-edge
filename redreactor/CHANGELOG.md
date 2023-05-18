@@ -1,1 +1,1 @@
-- Updated Red Reactor to v0.1.2-alpha
+- Removed package rule for Red Reactor
