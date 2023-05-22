@@ -1,1 +1,1 @@
-- Update release-shield naming
+- Fixed release-shield for beta releases
