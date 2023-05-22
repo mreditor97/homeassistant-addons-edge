@@ -1,1 +1,1 @@
-- ⬆️ Update home-assistant/cli to v4.25.0
+- Update Red Reactor to v0.1.0.beta.1
