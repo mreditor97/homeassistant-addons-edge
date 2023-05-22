@@ -1,1 +1,1 @@
-- ⬆️ Update alpine_3_17/musl-dev to v1.2.3-r5
+- ⬆️ Update home-assistant/cli to v4.25.0
