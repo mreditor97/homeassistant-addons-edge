@@ -1,1 +1,1 @@
-- Change release-shield colour
+- Update release-shield naming

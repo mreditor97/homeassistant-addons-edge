@@ -36,9 +36,9 @@ on the correct GitHub repository matching the add-on.
 For a general repository issue or add-on ideas [open an issue here][issue]
 
 
-[addon-redreactor]: https://github.com/mreditor97/addon-redreactor/tree/56d7229
+[addon-redreactor]: https://github.com/mreditor97/addon-redreactor/tree/801c6af
 [redreactor-issue]: https://github.com/mreditor97/addon-redreactor/issues
-[redreactor-version-shield]: https://img.shields.io/badge/version-56d7229-blue.svg
+[redreactor-version-shield]: https://img.shields.io/badge/version-801c6af-blue.svg
 
 [redreactor-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 
