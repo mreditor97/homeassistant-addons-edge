@@ -1,1 +1,1 @@
-- Fixed release-shield for beta releases
+- Removed requirements file
