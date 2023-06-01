@@ -41,7 +41,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 
 {% for addon in addons %}
 
-[addon-{{ addon.target }}]: {{ addon.repo }}/tree/{{ addon.version }}
+[addon-{{ addon.target }}]: {{ addon.repo }}/tree/{{ addon.version | replace("v", "") }}
 [{{ addon.target }}-issue]: {{ addon.repo }}/issues
 [{{ addon.target }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version }}-blue.svg
 
