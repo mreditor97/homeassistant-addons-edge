@@ -5,3 +5,7 @@ addons:
     repository: mreditor97/addon-redreactor
     target: redreactor
     image: ghcr.io/mreditor97/redreactor/{arch}
+  dns-godaddy:
+    repository: mreditor97/addon-dns-godaddy
+    target: dns-godaddy
+    image: ghcr.io/mreditor97/dns-godaddy/{arch}
