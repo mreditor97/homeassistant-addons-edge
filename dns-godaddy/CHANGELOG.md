@@ -1,0 +1,1 @@
+- Removed chmod of `dns-godaddy-update`
