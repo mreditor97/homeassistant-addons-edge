@@ -48,9 +48,9 @@ on the correct GitHub repository matching the add-on.
 For a general repository issue or add-on ideas [open an issue here][issue]
 
 
-[addon-dns-godaddy]: https://github.com/mreditor97/addon-dns-godaddy/tree/cca60f5
+[addon-dns-godaddy]: https://github.com/mreditor97/addon-dns-godaddy/tree/c986559
 [dns-godaddy-issue]: https://github.com/mreditor97/addon-dns-godaddy/issues
-[dns-godaddy-version-shield]: https://img.shields.io/badge/version-cca60f5-blue.svg
+[dns-godaddy-version-shield]: https://img.shields.io/badge/version-c986559-blue.svg
 
 [dns-godaddy-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 

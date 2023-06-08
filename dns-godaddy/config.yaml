@@ -1,6 +1,6 @@
 name: GoDaddy DNS Updater
 description: GoDaddy DNS updating service with Let's Encrypt support
-version: cca60f5
+version: c986559
 slug: dns-godaddy
 url: https://github.com/mreditor97/addon-dns-godaddy
 startup: services

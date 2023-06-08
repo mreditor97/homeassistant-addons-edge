@@ -1,1 +1,1 @@
-- Removed chmod of `dns-godaddy-update`
+- Reverted `dockerfile` to include chmod of scripts

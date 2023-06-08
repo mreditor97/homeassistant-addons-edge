@@ -14,7 +14,8 @@ Automatically update your GoDaddy DNS IP address with integrated HTTPS support v
 This add-on updates your DNS records that are hosted on [GoDaddy][godaddy] to an IP address of your choice.
 It includes the support for creating and renewing your Let's Encrypt certificate automatically.
 
-**You must have a domain hosting account with GoDaddy and must have a GoDaddy API key before being able to use this addon.**
+**You must have a domain hosting account with GoDaddy and must have a GoDaddy API key before being able to use this
+addon.**
 
 *This is a modified version of [mrmichaelrb's][mrmichaelrb] GoDaddy DNS Updater - so all credit goes to him! Thanks!*
 
@@ -35,11 +36,11 @@ This repository was created for:
 
 If you are more interested in stable releases of our add-ons:
 
-<https: //github.com/mreditor97/homeassistant-addons>
+<https://github.com/mreditor97/homeassistant-addons>
 
 
-[release-shield]: https://img.shields.io/badge/version-cca60f5-blue.svg
-[release]: https://github.com/mreditor97/addon-dns-godaddy/tree/cca60f5
+[release-shield]: https://img.shields.io/badge/version-c986559-blue.svg
+[release]: https://github.com/mreditor97/addon-dns-godaddy/tree/c986559
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
