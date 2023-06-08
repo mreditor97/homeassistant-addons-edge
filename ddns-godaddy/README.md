@@ -39,8 +39,8 @@ If you are more interested in stable releases of our add-ons:
 <https://github.com/mreditor97/homeassistant-addons>
 
 
-[release-shield]: https://img.shields.io/badge/version-b5d943e-blue.svg
-[release]: https://github.com/mreditor97/addon-ddns-godaddy/tree/b5d943e
+[release-shield]: https://img.shields.io/badge/version-89adb21-blue.svg
+[release]: https://github.com/mreditor97/addon-ddns-godaddy/tree/89adb21
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg

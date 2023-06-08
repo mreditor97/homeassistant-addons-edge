@@ -1,1 +1,1 @@
-- Update name to `dynamic dns`
+- Fixed spelling errors
