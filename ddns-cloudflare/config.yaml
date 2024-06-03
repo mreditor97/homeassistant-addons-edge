@@ -1,0 +1,46 @@
+name: Cloudflare Dynamic DNS Updater
+description: Cloudflare Dynamic DNS updating service with Let's Encrypt support
+version: 77fc47e
+slug: ddns-cloudflare
+url: https://github.com/mreditor97/addon-ddns-cloudflare
+startup: services
+arch:
+- aarch64
+- armhf
+- armv7
+- amd64
+- i386
+init: false
+map:
+- ssl:rw
+options:
+  domain: my-cloudflare-domain.com
+  hostname: my-hostname
+  email: Cloudflare Email
+  secret: Cloudflare API Key
+  ttl: 600
+  proxied: false
+  scan_interval: 300
+  lets_encrypt:
+    accept_terms: false
+    certfile: fullchain.pem
+    keyfile: privkey.pem
+    renewal_period: 5184000
+    dns_delay: 30
+schema:
+  domain: str
+  hostname: str
+  email: str
+  secret: str
+  ttl: int
+  proxied: bool
+  scan_interval: int
+  lets_encrypt:
+    accept_terms: bool
+    certfile: str
+    keyfile: str
+    renewal_period: int
+    dns_delay: int
+  ipv4: str?
+  ipv6: str?
+image: ghcr.io/mreditor97/ddns-cloudflare/{arch}

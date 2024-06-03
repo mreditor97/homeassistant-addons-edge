@@ -3,6 +3,17 @@
 Add-ons for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be installed and configured from within the Home Assistant frontend.
 
 ## Available Add-ons
+### &#10003; [Cloudflare Dynamic DNS Updater][addon-ddns-cloudflare]
+
+![Latest Version][ddns-cloudflare-version-shield]
+![Supports armhf Architecture][ddns-cloudflare-armhf-shield]
+![Supports armv7 Architecture][ddns-cloudflare-armv7-shield]
+![Supports aarch64 Architecture][ddns-cloudflare-aarch64-shield]
+![Supports amd64 Architecture][ddns-cloudflare-amd64-shield]
+![Supports i386 Architecture][ddns-cloudflare-i386-shield]
+
+Cloudflare Dynamic DNS updating service with Let's Encrypt support
+
 ### &#10003; [GoDaddy Dynamic DNS Updater][addon-ddns-godaddy]
 
 ![Latest Version][ddns-godaddy-version-shield]
@@ -42,10 +53,26 @@ You can open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: Cloudflare Dynamic DNS Updater][ddns-cloudflare-issue]
 - [Open an issue for the add-on: GoDaddy Dynamic DNS Updater][ddns-godaddy-issue]
 - [Open an issue for the add-on: Red Reactor Battery Monitor][redreactor-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
+
+
+[addon-ddns-cloudflare]: https://github.com/mreditor97/addon-ddns-cloudflare/tree/77fc47e
+[ddns-cloudflare-issue]: https://github.com/mreditor97/addon-ddns-cloudflare/issues
+[ddns-cloudflare-version-shield]: https://img.shields.io/badge/version-77fc47e-blue.svg
+
+[ddns-cloudflare-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+
+[ddns-cloudflare-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+
+[ddns-cloudflare-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+
+[ddns-cloudflare-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+
+[ddns-cloudflare-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 
 
 [addon-ddns-godaddy]: https://github.com/mreditor97/addon-ddns-godaddy/tree/c94ad16
