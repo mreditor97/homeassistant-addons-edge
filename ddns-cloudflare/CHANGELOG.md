@@ -1,1 +1,1 @@
-- Added DNS delete function
+- Changed logging to echo

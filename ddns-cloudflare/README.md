@@ -38,8 +38,8 @@ If you are more interested in stable releases of our add-ons:
 <https://github.com/mreditor97/homeassistant-addons>
 
 
-[release-shield]: https://img.shields.io/badge/version-5c69317-blue.svg
-[release]: https://github.com/mreditor97/addon-ddns-cloudflare/tree/5c69317
+[release-shield]: https://img.shields.io/badge/version-64ba752-blue.svg
+[release]: https://github.com/mreditor97/addon-ddns-cloudflare/tree/64ba752
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
