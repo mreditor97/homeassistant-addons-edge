@@ -1,1 +1,1 @@
-- Added JQ support
+- Removed rogue quotes
