@@ -9,3 +9,7 @@ addons:
     repository: mreditor97/addon-ddns-godaddy
     target: ddns-godaddy
     image: ghcr.io/mreditor97/ddns-godaddy/{arch}
+  ddns-cloudflare:
+    repository: mreditor97/addon-ddns-cloudflare
+    target: ddns-cloudflare
+    image: ghcr.io/mreditor97/ddns-cloudflare/{arch}
