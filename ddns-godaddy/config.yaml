@@ -1,6 +1,6 @@
 name: GoDaddy Dynamic DNS Updater
 description: GoDaddy Dynamic DNS updating service with Let's Encrypt support
-version: 89adb21
+version: c94ad16
 slug: ddns-godaddy
 url: https://github.com/mreditor97/addon-ddns-godaddy
 startup: services
