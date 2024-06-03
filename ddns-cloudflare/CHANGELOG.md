@@ -1,1 +1,1 @@
-- Changed logging to echo
+- Added JQ support
