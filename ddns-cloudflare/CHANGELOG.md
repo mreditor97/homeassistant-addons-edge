@@ -1,1 +1,1 @@
-- Added required if statement spacing
+- Change DNS Record ID to use hostname
