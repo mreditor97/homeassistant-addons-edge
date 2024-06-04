@@ -1,1 +1,1 @@
-- Changed to use the domain name over hostname
+- Added required if statement spacing
