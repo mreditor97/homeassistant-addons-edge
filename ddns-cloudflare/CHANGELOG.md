@@ -1,1 +1,1 @@
-- Update to use FQDN
+- Change quotations to allow boolean value
