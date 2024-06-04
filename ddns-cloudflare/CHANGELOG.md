@@ -1,1 +1,1 @@
-- Added missing "
+- Changed to use the domain name over hostname
