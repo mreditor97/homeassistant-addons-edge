@@ -1,1 +1,1 @@
-- Change DNS Record ID to use hostname
+- Update to use FQDN
