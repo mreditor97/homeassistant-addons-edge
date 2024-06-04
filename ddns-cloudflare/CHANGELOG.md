@@ -1,1 +1,1 @@
-- Add missing slash
+- Fixed bracket position
