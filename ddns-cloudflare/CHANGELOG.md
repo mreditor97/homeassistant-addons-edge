@@ -1,1 +1,1 @@
-- Fixed bracket position
+- Added failure catch
