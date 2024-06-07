@@ -1,1 +1,1 @@
-- Added missing bracket into jq query
+- Updated jq and added additional debugging
