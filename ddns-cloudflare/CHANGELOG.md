@@ -1,1 +1,1 @@
-- Corrected jq processing
+- Added missing bracket into jq query
