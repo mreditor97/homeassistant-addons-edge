@@ -1,1 +1,1 @@
-- Changed dns record data
+- Changed to display FQDN
