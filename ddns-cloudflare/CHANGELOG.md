@@ -1,1 +1,1 @@
-- Don't update IP if it previously set one
+- Fix IP address checking
