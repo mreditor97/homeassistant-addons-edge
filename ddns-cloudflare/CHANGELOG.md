@@ -1,1 +1,1 @@
-- Updated jq method
+- Additional diagnostics
