@@ -1,1 +1,1 @@
-- Fixed update hook
+- Added additional debugging
