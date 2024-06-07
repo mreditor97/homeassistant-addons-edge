@@ -1,1 +1,1 @@
-- Added additional debugging
+- Reverted back to using hostname
