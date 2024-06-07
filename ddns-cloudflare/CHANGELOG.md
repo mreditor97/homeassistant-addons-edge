@@ -1,1 +1,1 @@
-- Change DNS Record ID parsing
+- Updated jq parsing method
