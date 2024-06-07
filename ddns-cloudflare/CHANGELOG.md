@@ -1,1 +1,1 @@
-- Published FQDN to container
+- Added timestamp of change to the comments
