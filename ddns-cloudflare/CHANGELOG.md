@@ -1,1 +1,1 @@
-- Updated jq parsing method
+- Fix jq processing
