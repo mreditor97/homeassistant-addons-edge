@@ -1,1 +1,1 @@
-- Updated jq and added additional debugging
+- Updated jq method
