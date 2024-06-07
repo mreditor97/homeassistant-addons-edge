@@ -1,1 +1,1 @@
-- Fix jq processing
+- Corrected jq processing
