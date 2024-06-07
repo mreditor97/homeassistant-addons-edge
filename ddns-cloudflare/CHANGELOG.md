@@ -1,1 +1,1 @@
-- Fix IP address checking
+- Published FQDN to container
