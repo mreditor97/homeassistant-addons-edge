@@ -1,1 +1,1 @@
-- Change to use FQDN
+- Changed dns record data
