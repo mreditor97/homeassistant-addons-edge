@@ -1,1 +1,1 @@
-- Changed to display FQDN
+- Fixed update hook
