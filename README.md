@@ -60,9 +60,9 @@ on the correct GitHub repository matching the add-on.
 For a general repository issue or add-on ideas [open an issue here][issue]
 
 
-[addon-ddns-cloudflare]: https://github.com/mreditor97/addon-ddns-cloudflare/tree/c7a7ab5
+[addon-ddns-cloudflare]: https://github.com/mreditor97/addon-ddns-cloudflare/tree/dd45480
 [ddns-cloudflare-issue]: https://github.com/mreditor97/addon-ddns-cloudflare/issues
-[ddns-cloudflare-version-shield]: https://img.shields.io/badge/version-c7a7ab5-blue.svg
+[ddns-cloudflare-version-shield]: https://img.shields.io/badge/version-dd45480-blue.svg
 
 [ddns-cloudflare-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 
