@@ -1,1 +1,1 @@
-- Fixed matching IP check
+- Fixed IP address the same check
