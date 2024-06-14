@@ -1,1 +1,1 @@
-- Change to staging url
+- Added Lets Encrypt terms and conditions acceptance
