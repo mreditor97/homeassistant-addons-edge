@@ -1,1 +1,1 @@
-- Add Cloudflare DNS comment ability
+- Lets Encrypt support
