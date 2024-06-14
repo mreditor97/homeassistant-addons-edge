@@ -1,1 +1,1 @@
-- Added Lets Encrypt terms and conditions acceptance
+- FQDN comment

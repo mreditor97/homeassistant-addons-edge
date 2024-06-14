@@ -1,6 +1,6 @@
 name: Cloudflare Dynamic DNS Updater
 description: Cloudflare Dynamic DNS updating service with Let's Encrypt support
-version: a1cc97c
+version: 1783ada
 slug: ddns-cloudflare
 url: https://github.com/mreditor97/addon-ddns-cloudflare
 startup: services
