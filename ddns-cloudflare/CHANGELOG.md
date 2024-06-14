@@ -1,1 +1,1 @@
-- Change to staging url for testing
+- Information to help with debugging
