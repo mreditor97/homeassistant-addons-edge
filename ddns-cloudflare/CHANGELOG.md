@@ -1,1 +1,1 @@
-- Fixed compare of old and new IP addresses
+- Add Cloudflare DNS comment ability
