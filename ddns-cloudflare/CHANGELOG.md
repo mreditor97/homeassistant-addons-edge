@@ -1,1 +1,1 @@
-- Match IP's to see if update is required
+- Fixed matching IP check
