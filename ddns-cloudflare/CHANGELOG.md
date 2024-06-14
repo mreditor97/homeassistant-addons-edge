@@ -1,1 +1,1 @@
-- Fixed IP address the same check
+- Fixed compare of old and new IP addresses
