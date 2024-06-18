@@ -1,4 +1,5 @@
 # Changelog since 0.1.4
+- ⬆️ Update home-assistant/cli to v4.35.0 
 - Removed CAS 
 - ⬆️ Update home-assistant/cli to v4.34.0 
 - ⬆️ Update home-assistant/cli to v4.33.0 
