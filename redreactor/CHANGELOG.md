@@ -1,4 +1,7 @@
 # Changelog since 0.1.4
+- ⬆️ Update home-assistant/cli to v4.38.0 (#28)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update home-assistant/cli to v4.37.0 (#27)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
