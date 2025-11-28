@@ -1,4 +1,7 @@
 # Changelog since 0.1.4
+- ⬆️ Migrate Renovate config (#35) 
+- Prettified Code! 
+- ⬆️: migrate config .github/renovate.json 
 - ⬆️ Update home-assistant/cli to v4.43.0 (#34)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
