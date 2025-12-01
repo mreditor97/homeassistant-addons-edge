@@ -1,4 +1,9 @@
 # Changelog since 0.1.4
+- Update base image in Dockerfile to Python 3.14 
+- Move hadolint ignore comment 
+- Add raspberrypi-utils 
+- Add version pinning 
+- Add vcgencmd into docker image 
 - ⬆️ Migrate Renovate config (#35) 
 - Prettified Code! 
 - ⬆️: migrate config .github/renovate.json 
