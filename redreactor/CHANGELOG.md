@@ -1,4 +1,5 @@
 # Changelog since 0.1.4
+- Add SYS_RAWIO and vchiq device to config 
 - ⬆️ Update redreactor to v0.1.4 (#37) 
 - Removal of arm architectures when building images (#38) 
 - Update config.yaml to remove arm architectures
