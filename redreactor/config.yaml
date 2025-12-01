@@ -1,6 +1,6 @@
 name: Red Reactor Battery Monitor
 description: Red Reactor Battery Monitoring service
-version: 9aa4f48
+version: 466222e
 slug: redreactor
 url: https://github.com/mreditor97/addon-redreactor
 startup: services
@@ -9,10 +9,8 @@ arch:
 init: false
 privileged:
 - SYS_ADMIN
-- SYS_RAWIO
 devices:
 - /dev/i2c-1
-- /dev/vchiq
 hassio_api: true
 hassio_role: manager
 services:
