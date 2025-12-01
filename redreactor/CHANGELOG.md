@@ -1,4 +1,13 @@
 # Changelog since 0.1.4
+- ⬆️ Update redreactor to v0.1.4 (#37) 
+- Removal of arm architectures when building images (#38) 
+- Update config.yaml to remove arm architectures
+
+Removed unsupported architectures from config. 
+- Remove armhf and armv7 build configurations
+
+Removed armhf and armv7 build configurations from YAML. 
+- ⬆️ Update redreactor to v0.1.4 
 - Update base image in Dockerfile to Python 3.14 
 - Move hadolint ignore comment 
 - Add raspberrypi-utils 
