@@ -1,4 +1,6 @@
 # Changelog since 0.1.4
+- ⬆️ Update redreactor to v0.1.6 (#40) 
+- ⬆️ Update redreactor to v0.1.6 
 - Update config.yaml by removing unnecessary entries
 
 Removed SYS_RAWIO and /dev/vchiq from config. 
