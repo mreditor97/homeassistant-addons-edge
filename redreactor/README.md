@@ -36,8 +36,8 @@ If you are more interested in stable releases of our add-ons:
 <https://github.com/mreditor97/homeassistant-addons>
 
 
-[release-shield]: https://img.shields.io/badge/version-30d0edf-blue.svg
-[release]: https://github.com/mreditor97/addon-redreactor/tree/30d0edf
+[release-shield]: https://img.shields.io/badge/version-647f0e1-blue.svg
+[release]: https://github.com/mreditor97/addon-redreactor/tree/647f0e1
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
