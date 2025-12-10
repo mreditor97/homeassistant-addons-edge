@@ -75,9 +75,9 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [ddns-cloudflare-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 
 
-[addon-ddns-godaddy]: https://github.com/mreditor97/addon-ddns-godaddy/tree/6ec1de8
+[addon-ddns-godaddy]: https://github.com/mreditor97/addon-ddns-godaddy/tree/6f5e890
 [ddns-godaddy-issue]: https://github.com/mreditor97/addon-ddns-godaddy/issues
-[ddns-godaddy-version-shield]: https://img.shields.io/badge/version-6ec1de8-blue.svg
+[ddns-godaddy-version-shield]: https://img.shields.io/badge/version-6f5e890-blue.svg
 
 [ddns-godaddy-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 
