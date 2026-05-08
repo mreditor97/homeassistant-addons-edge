@@ -90,9 +90,9 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [ddns-godaddy-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 
 
-[addon-redreactor]: https://github.com/mreditor97/addon-redreactor/tree/6deace5
+[addon-redreactor]: https://github.com/mreditor97/addon-redreactor/tree/7975b4c
 [redreactor-issue]: https://github.com/mreditor97/addon-redreactor/issues
-[redreactor-version-shield]: https://img.shields.io/badge/version-6deace5-blue.svg
+[redreactor-version-shield]: https://img.shields.io/badge/version-7975b4c-blue.svg
 
 [redreactor-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 
