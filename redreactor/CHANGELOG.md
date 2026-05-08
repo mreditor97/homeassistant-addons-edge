@@ -1,4 +1,6 @@
 # Changelog since 0.1.5
+- ⬆️ Update redreactor to v0.1.8 (#46) 
+- ⬆️ Update redreactor to v0.1.8 
 - ⬆️ Update home-assistant/cli to v5 (#45) 
 - ⬆️ Update home-assistant/cli to v5 
 - ⬆️ Update home-assistant/cli to v4.46.0 (#44)
