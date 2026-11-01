@@ -1,4 +1,32 @@
 # Changelog since 0.1.6
+- Add the battery settings to the app configuration (#69) 
+- Merge remote-tracking branch 'origin/master' into claude/project-thread-j840eg
+
+# Conflicts:
+#	redreactor/translations/en.yaml 
+- Give the release pin commit a subject line only (#68) 
+- Label every app option in the translations, with TLS capitalised (#67) 
+- Add the battery settings to the app configuration
+
+The internal resistance, readings averaged and voltage curve can now be set
+in the app options and are passed to Red Reactor at start. The curve is
+entered as voltage and level points, as the options can't hold a list of
+lists, and converted to [voltage, level] pairs. An empty curve is left out.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNRqPmjstcz34BstSJ4 
+- Give the release pin commit a subject line only
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
+- Label every app option in the translations, with TLS capitalised
+
+Home Assistant showed the nested MQTT options by their raw keys, so the
+TLS group appeared as lowercase "tls". Add field names and descriptions
+for every nested option, and fix the "incase" typo.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNNM8qEbNyLpT78rQzV 
 - Update the edge app to redreactor 0.1.9a587
 
 https://github.com/mreditor97/redreactor/releases/tag/0.1.9a587 
