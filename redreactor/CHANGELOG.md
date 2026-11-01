@@ -1,4 +1,13 @@
 # Changelog since 0.1.6
+- Migrate the release-drafter config off deprecated fields (#64) 
+- Migrate the release-drafter config off deprecated fields
+
+Category labels move under 'when', and the version-resolver labels move
+into 'type: version-resolver' categories, with a fallback category for
+the old 'default: patch'. The resolved versions stay the same.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
 - Release stable, beta and edge apps from redreactor releases (#63) 
 - Rename the Redreactor workflow to Release
 
