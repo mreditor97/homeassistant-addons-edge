@@ -1,4 +1,15 @@
 # Changelog since 0.1.6
+- Move the s6 user bundle to user-bundles.d (#70) 
+- Move the s6 user bundle to user-bundles.d
+
+s6-overlay 3.2.3.2 reads the user and user2 bundles from
+/etc/s6-overlay/user-bundles.d and warns at boot when they are still
+defined under /etc/s6-overlay/s6-rc.d. Register the redreactor service
+in user-bundles.d/user/contents.d instead. The bundle's type file comes
+from s6-overlay itself, and the service definition stays in s6-rc.d.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQ1Thz4HC53nwNuU6v 
 - Add the battery settings to the app configuration (#69) 
 - Merge remote-tracking branch 'origin/master' into claude/project-thread-j840eg
 
