@@ -1,5 +1,20 @@
 # Changelog since 0.1.6
+- Update the edge app to redreactor 0.1.9a589 
+- Update the edge app to redreactor 0.1.9a588 
+- Use the Samsung INR18650-35E as the battery curve example in the docs (#71) 
+- Use the Samsung 35E curve as the docs example, not a default
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNRqPmjstcz34BstSJ4 
 - Move the s6 user bundle to user-bundles.d (#70) 
+- Default the battery curve to the Samsung INR18650-35E
+
+Read off the 0.2A discharge trace in the lygte-info.dk review, with the
+level as the share of the 3.40Ah the cell gave down to 2.8V. Clearing the
+curve still gives a straight line between the voltage minimum and maximum.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNRqPmjstcz34BstSJ4 
 - Move the s6 user bundle to user-bundles.d
 
 s6-overlay 3.2.3.2 reads the user and user2 bundles from
