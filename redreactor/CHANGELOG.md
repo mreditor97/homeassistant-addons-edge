@@ -1,4 +1,60 @@
 # Changelog since 0.1.6
+- Release stable, beta and edge apps from redreactor releases (#63) 
+- Rename the Redreactor workflow to Release
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
+- Use the existing DISPATCH_TOKEN for app releases
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
+- Release a stable app for each redreactor stable release
+
+On a stable redreactor-release dispatch, pin requirements.txt to the new
+PyPI version and create the next X.Y.Z app release, which Deploy
+publishes to homeassistant-apps.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
+- Combine the Edge and Beta workflows into one
+
+A single Redreactor workflow handles the redreactor-release dispatch for
+both channels: it pins requirements-<channel>.txt to the wheel on the
+redreactor pre-release, then starts Deploy (edge) or creates the next app
+pre-release (beta).
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
+- Release a beta app for each redreactor beta
+
+A new Beta workflow receives the redreactor-beta dispatch, pins
+redreactor/requirements-beta.txt to the beta's wheel, and creates the
+next X.Y.Z-beta.N app pre-release, which Deploy publishes to
+homeassistant-apps-beta. Beta app builds install requirements-beta.txt.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
+- Install the edge alpha from its GitHub pre-release wheel
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
+- Keep the token out of the Edge checkout
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
+- Build the edge app with the latest redreactor alpha
+
+A new Edge workflow receives the redreactor-edge dispatch from the
+redreactor master build, pins redreactor/requirements-edge.txt to that
+alpha, commits it to master and starts Deploy, which publishes the edge
+app to homeassistant-apps-edge as before.
+
+The Dockerfile installs requirements-edge.txt only for edge builds
+(versioned by a short commit hash), so stable and beta keep installing
+the release in requirements.txt. Renovate leaves the edge pin alone.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
 - Drop the unused SYS_ADMIN capability (#62) 
 - Add TLS, sensor and discovery options; document new Red Reactor features (#60) 
 - Fix base image drift, exec the service and auto-configure MQTT (#58) 
