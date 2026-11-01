@@ -1,4 +1,50 @@
 # Changelog since 0.1.6
+- Add TLS, sensor and discovery options; document new Red Reactor features (#60) 
+- Fix base image drift, exec the service and auto-configure MQTT (#58) 
+- Remove the battery runtime limit from the docs
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQAKkStd5ijSre5PTJ 
+- Merge option type restrictions (#59) and align the new options
+
+ina.address now allows 3 to 119, matching the service's start-up check.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQAKkStd5ijSre5PTJ 
+- Add TLS, sensor and discovery options, document new Red Reactor features
+
+- mqtt.tls options, with the /ssl folder mapped read-only for certificates
+- ina.address and ina.monitor_interval (optional)
+- homeassistant.discovery toggle (optional)
+- Document the shutdown level, runtime limit, power and charging entities
+
+Needs a redreactor release with these features before requirements.txt
+is bumped.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQAKkStd5ijSre5PTJ 
+- Restrict add-on option types to what the service accepts
+
+The hostname is used as an MQTT topic level, so reject /, + and #.
+Intervals must be positive, as 0 would spin the discovery timer.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNPGZ2ghYmuZDU86zfP 
+- Fix base image drift, exec the service and auto-configure MQTT
+
+- Build from 3.14-alpine3.22 in build.yaml to match the Dockerfile
+  (it was still on the end-of-life alpine3.17), update the pinned build
+  dependencies to their Alpine 3.22 versions and point Renovate's
+  repology lookups at alpine_3_22.
+- exec the Python process so it receives the stop signal from s6.
+- Fail the build if the HA CLI download fails (curl -f), instead of
+  saving an HTML error page as /usr/bin/ha.
+- Make the MQTT options optional and fill any left empty from the
+  Supervisor's MQTT service, add an optional client_id, and set
+  exit_on_fail false so the app keeps retrying the broker.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQb2Z1A2t6zzynBCxu 
 - ⬆️ Update home-assistant/cli to v5.6.0 (#57)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
