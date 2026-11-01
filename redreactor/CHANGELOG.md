@@ -1,4 +1,16 @@
 # Changelog since 0.1.6
+- Name app releases with a leading v and add What's changed notes (#65) 
+- Add the What's changed notes to app releases
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
+- Name app releases with a leading v
+
+The tag stays X.Y.Z or X.Y.Z-beta.N; the release title gets a leading v,
+matching the release-drafter name-template.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
 - Migrate the release-drafter config off deprecated fields (#64) 
 - Migrate the release-drafter config off deprecated fields
 

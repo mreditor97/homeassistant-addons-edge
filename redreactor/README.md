@@ -33,8 +33,8 @@ If you are more interested in stable releases of our apps:
 <https://github.com/mreditor97/homeassistant-apps>
 
 
-[release-shield]: https://img.shields.io/badge/version-fface4d-blue.svg
-[release]: https://github.com/mreditor97/app-redreactor/tree/fface4d
+[release-shield]: https://img.shields.io/badge/version-a5894ae-blue.svg
+[release]: https://github.com/mreditor97/app-redreactor/tree/a5894ae
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
 [redreactor]: https://www.theredreactor.com/
