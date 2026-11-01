@@ -1,4 +1,7 @@
 # Changelog since 0.1.6
+- Update the edge app to redreactor 0.1.9a587
+
+https://github.com/mreditor97/redreactor/releases/tag/0.1.9a587 
 - Push the release pin with DISPATCH_TOKEN (#66) 
 - Push the release pin with DISPATCH_TOKEN
 
