@@ -1,6 +1,21 @@
 # Changelog since 0.1.6
+- Drop the unused SYS_ADMIN capability (#62) 
 - Add TLS, sensor and discovery options; document new Red Reactor features (#60) 
 - Fix base image drift, exec the service and auto-configure MQTT (#58) 
+- Drop the unused SYS_ADMIN capability
+
+Nothing in the add-on or the Red Reactor service uses it: I2C goes
+through the /dev/i2c-1 device mapping, CPU stats come from read-only
+sysfs, and shutdown/restart go through the Supervisor API. The add-on
+docs say to only add capabilities the software really uses, as many
+lower the security rating.
+
+hassio_api and hassio_role: manager stay, since the Supervisor's
+manager role is the one that covers the host endpoints used for
+shutdown and restart.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQYHMX5epbTVMa9kNL 
 - Remove the battery runtime limit from the docs
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
