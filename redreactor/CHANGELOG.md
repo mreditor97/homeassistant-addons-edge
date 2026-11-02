@@ -1,4 +1,5 @@
 # Changelog since 0.1.6
+- Update the edge app to redreactor 0.1.9a590 
 - Update the edge app to redreactor 0.1.9a589 
 - Update the edge app to redreactor 0.1.9a588 
 - Use the Samsung INR18650-35E as the battery curve example in the docs (#71) 
