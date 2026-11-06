@@ -1,4 +1,7 @@
 # Changelog since 0.1.6
+- ⬆️ Update ghcr.io/home-assistant/aarch64-base-python Docker tag to v3.15 (#72)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - Update the edge app to redreactor 0.1.9a593 
 - Update the edge app to redreactor 0.1.9a592 
 - Update the edge app to redreactor 0.1.9a591 
