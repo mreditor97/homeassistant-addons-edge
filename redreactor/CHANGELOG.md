@@ -1,4 +1,32 @@
 # Changelog since 0.1.6
+- Update the edge app to redreactor 0.1.9a594 
+- 🔧 Tighten the options schema to the service's start-up limits (#73) 
+- 🔧 Require a birth message payload when one is set
+
+The service refuses an empty homeassistant.status_online at start-up.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQAKkStd5ijSre5PTJ 
+- Merge branch 'claude/project-thread-juto9j' of https://github.com/mreditor97/app-redreactor into claude/project-thread-juto9j 
+- Add Home Assistant birth message topic and payload options
+
+Lets the add-on set homeassistant.status_topic and status_online, which
+Red Reactor listens on to resend discovery and its latest readings after
+Home Assistant restarts.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQsfvjYJ2W7KWfxYaK 
+- 🔧 Tighten the options schema to the service's start-up limits
+
+The service now refuses these at start-up, so the Supervisor rejects them
+when they are saved instead of the app stopping with an error later:
+
+- homeassistant.discovery_interval from 1 to 86400 seconds
+- mqtt.broker with no spaces, when it is set
+- hostname.pretty, system.shutdown and system.restart not blank
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQAKkStd5ijSre5PTJ 
 - ⬆️ Update ghcr.io/home-assistant/aarch64-base-python Docker tag to v3.15 (#72)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
@@ -151,6 +179,7 @@ the release in requirements.txt. Renovate leaves the edge pin alone.
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01NpHVNQbR7fsAzefajkx6U7 
 - Drop the unused SYS_ADMIN capability (#62) 
+- Add Home Assistant birth message topic and payload options (#61) 
 - Add TLS, sensor and discovery options; document new Red Reactor features (#60) 
 - Fix base image drift, exec the service and auto-configure MQTT (#58) 
 - Drop the unused SYS_ADMIN capability
@@ -171,6 +200,14 @@ Claude-Session: https://claude.ai/code/session_01NpHVNQYHMX5epbTVMa9kNL
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01NpHVNQAKkStd5ijSre5PTJ 
+- Add Home Assistant birth message topic and payload options
+
+Lets the add-on set homeassistant.status_topic and status_online, which
+Red Reactor listens on to resend discovery and its latest readings after
+Home Assistant restarts.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01NpHVNQsfvjYJ2W7KWfxYaK 
 - Merge option type restrictions (#59) and align the new options
 
 ina.address now allows 3 to 119, matching the service's start-up check.

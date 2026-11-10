@@ -1,6 +1,6 @@
 name: Red Reactor Battery Monitor
 description: Red Reactor Battery Monitoring service
-version: 666d6fb
+version: 6822b40
 slug: redreactor
 url: https://github.com/mreditor97/app-redreactor
 startup: services
@@ -36,7 +36,7 @@ options:
     file: WARNING
 schema:
   mqtt:
-    broker: str?
+    broker: match(^\S+$)?
     port: port?
     user: str?
     password: password?
@@ -49,11 +49,13 @@ schema:
       insecure: bool?
   hostname:
     name: match(^[^/+#]+$)
-    pretty: str
+    pretty: match(^.*\S.*$)
   homeassistant:
     discovery: bool?
-    discovery_interval: int(1,)
+    discovery_interval: int(1,86400)
     expire_after: int(0,)
+    status_topic: match(^[^+#]+$)?
+    status_online: match(^.+$)?
   ina:
     address: int(3,119)?
     monitor_interval: int(1,60)?
@@ -64,8 +66,8 @@ schema:
     - voltage: float
       level: float(0,100)
   system:
-    shutdown: str
-    restart: str
+    shutdown: match(^.*\S.*$)
+    restart: match(^.*\S.*$)
   logging:
     console: list(DEBUG|INFO|WARNING|ERROR|CRITICAL)
     file: list(DEBUG|INFO|WARNING|ERROR|CRITICAL)
