@@ -69,9 +69,9 @@ For a general repository issue or app ideas [open an issue here][issue]
 [ddns-godaddy-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 
 
-[app-redreactor]: https://github.com/mreditor97/app-redreactor/tree/9a0b633
+[app-redreactor]: https://github.com/mreditor97/app-redreactor/tree/27f794b
 [redreactor-issue]: https://github.com/mreditor97/app-redreactor/issues
-[redreactor-version-shield]: https://img.shields.io/badge/version-9a0b633-blue.svg
+[redreactor-version-shield]: https://img.shields.io/badge/version-27f794b-blue.svg
 
 [redreactor-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 
