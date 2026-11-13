@@ -1,4 +1,7 @@
 # Changelog since 0.1.6
+- ⬆️ Update home-assistant/cli to v5.7.0 (#75)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - Update the edge app to redreactor 0.1.9a597 
 - Update the edge app to redreactor 0.1.9a596 
 - Update the edge app to redreactor 0.1.9a595 
